@@ -1,19 +1,9 @@
-* {
-    margin: 0;
-}
-
 h1 {
-    font-family: Impact;
-    font-size: 3rem;
-    margin: 50px;
-}
-
-.secondary {
-    color: blue;
-    text-align: left;
+    color: rgb(34, 255, 0, 0.3);
+    background-color: #6495ed;
+    border: 1ps solid black;
 }
 
 h2 {
-    text-align: center;
-    color: skyblue !important;
+    color: #9ac653;
 }
