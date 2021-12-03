@@ -1,13 +1,19 @@
+* {
+    margin: 0;
+}
+
 h1 {
     font-family: Impact;
     font-size: 3rem;
+    margin: 50px;
 }
 
 .secondary {
     color: blue;
+    text-align: left;
 }
 
 h2 {
-    text-align: right;
-    color: skyblue;
+    text-align: center;
+    color: skyblue !important;
 }
