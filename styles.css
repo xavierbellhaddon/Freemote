@@ -1,11 +1,7 @@
-h1 {
-    color: skyblue;
-    transition: 0.5s ease all;
+ul {
+    list-style-type: none;
 }
 
-h1:hover {
-    cursor: pointer;
-    color: cornflowerblue;
-    transition: 0.5s ease all;
-    transform: translateY(2rem);
+li::before {
+    content: "✅";
 }
