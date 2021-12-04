@@ -1,36 +1,32 @@
+/* mobile first styles */
+
+body {
+    font-size: 2rem;
+}
+
 .container {
-    border: 3px solid black;
-    display: flex;
-    /* height: 50vh; */
-    /* flex-wrap: wrap; */
+    background-color: dimgray;
 }
 
-.box {
-    flex: 1 1 300px;
-    /* flex-grow: 1;
-    flex-basis: 300px; */
-    height: 100px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 3rem;
+    }
+    .container {
+        background-color: cadetblue;
+        margin: 20px;
+    }
 }
 
-.box:nth-of-type(1) {
-    background-color: darkseagreen;
-    /* align-self: center; */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 4rem;;
+    }
+    .container {
+        background-color: forestgreen;
+        margin: 40px;
+    }
 }
-.box:nth-of-type(2) {
-    background-color: darkslateblue;
-}
-.box:nth-of-type(3) {
-    background-color: darkturquoise;
-    flex-shrink: 0;
-    /* align-self: center; */
-}
-.box:nth-of-type(4) {
-    background-color: dodgerblue;
-}
-.box:nth-of-type(5) {
-    background-color: goldenrod;
-    /* align-self: center; */
-}
-.box:nth-of-type(6) {
-    background-color: hotpink;
-}
+
