@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+#hero {
+    /* background-image: url("mountain.jpg");
+    background-size: 100%;
+    background-position: center; */
+    background: center / 100% url("mountain.jpg");
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
